@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=480, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="fonts/">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header-navigation">
+            <input id="menu__toggle" class="mobile-site" type="checkbox">
+            <label class="menu__btn mobile-site " for="menu__toggle">
+                <span class="mobile-site"></span>
+            </label>
+            <a href="#" class="logo-header-navigation">
+                <svg class="logo-svg-header-navigation" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="56" viewBox="0 0 64 56">
+                    <path d="M 52.87 55.13C 52.87 55.13 58.13 45.94 58.13 45.94 58.13 45.94 63.38 55.13 63.38 55.13 63.38 55.13 52.87 55.13 52.87 55.13ZM 46.3 45.17C 46.3 45.17 56.81 45.17 56.81 45.17 56.81 45.17 51.56 54.36 51.56 54.36 51.56 54.36 46.3 45.17 46.3 45.17ZM 51.56 34.45C 51.56 34.45 56.81 43.64 56.81 43.64 56.81 43.64 46.3 43.64 46.3 43.64 46.3 43.64 51.56 34.45 51.56 34.45ZM 39.74 33.69C 39.74 33.69 50.24 33.69 50.24 33.69 50.24 33.69 44.99 42.87 44.99 42.87 44.99 42.87 39.74 33.69 39.74 33.69ZM 44.99 22.97C 44.99 22.97 50.24 32.15 50.24 32.15 50.24 32.15 39.74 32.15 39.74 32.15 39.74 32.15 44.99 22.97 44.99 22.97ZM 33.17 22.2C 33.17 22.2 43.68 22.2 43.68 22.2 43.68 22.2 38.42 31.39 38.42 31.39 38.42 31.39 33.17 22.2 33.17 22.2ZM 38.42 11.48C 38.42 11.48 43.68 20.67 43.68 20.67 43.68 20.67 33.17 20.67 33.17 20.67 33.17 20.67 38.42 11.48 38.42 11.48ZM 26.6 10.71C 26.6 10.71 37.11 10.71 37.11 10.71 37.11 10.71 31.85 19.9 31.85 19.9 31.85 19.9 26.6 10.71 26.6 10.71ZM 31.85-0.01C 31.85-0.01 37.11 9.18 37.11 9.18 37.11 9.18 26.6 9.18 26.6 9.18 26.6 9.18 31.85-0.01 31.85-0.01ZM 20.03 20.67C 20.03 20.67 25.29 11.48 25.29 11.48 25.29 11.48 30.54 20.67 30.54 20.67 30.54 20.67 20.03 20.67 20.03 20.67ZM 13.46 32.15C 13.46 32.15 18.72 22.97 18.72 22.97 18.72 22.97 23.97 32.15 23.97 32.15 23.97 32.15 13.46 32.15 13.46 32.15ZM 6.9 43.64C 6.9 43.64 12.15 34.45 12.15 34.45 12.15 34.45 17.4 43.64 17.4 43.64 17.4 43.64 6.9 43.64 6.9 43.64ZM 0.33 55.13C 0.33 55.13 5.58 45.94 5.58 45.94 5.58 45.94 10.84 55.13 10.84 55.13 10.84 55.13 0.33 55.13 0.33 55.13ZM 17.4 45.17C 17.4 45.17 12.15 54.36 12.15 54.36 12.15 54.36 6.9 45.17 6.9 45.17 6.9 45.17 17.4 45.17 17.4 45.17ZM 23.97 33.69C 23.97 33.69 18.72 42.87 18.72 42.87 18.72 42.87 13.46 33.69 13.46 33.69 13.46 33.69 23.97 33.69 23.97 33.69ZM 30.54 22.2C 30.54 22.2 25.29 31.39 25.29 31.39 25.29 31.39 20.03 22.2 20.03 22.2 20.03 22.2 30.54 22.2 30.54 22.2ZM 37.11 55.13C 37.11 55.13 26.6 55.13 26.6 55.13 26.6 55.13 31.85 45.94 31.85 45.94 31.85 45.94 37.11 55.13 37.11 55.13ZM 43.68 45.17C 43.68 45.17 38.42 54.36 38.42 54.36 38.42 54.36 33.17 45.17 33.17 45.17 33.17 45.17 43.68 45.17 43.68 45.17ZM 50.24 55.13C 50.24 55.13 39.74 55.13 39.74 55.13 39.74 55.13 44.99 45.94 44.99 45.94 44.99 45.94 50.24 55.13 50.24 55.13Z" />
+                </svg>
+                <span class="logo-txt-header-navigation">Waxom</span>
+            </a>
+            <nav class="header-navigation-nav">
+                <ul class="header-navigation-list">
+                    <li class="header-navigation-item"><a href="#"><span>Home</span></a></li>
+                    <li class="header-navigation-item"><a href="#"><span>About Us</span></a></li>
+                    <li class="header-navigation-item"><a href="#"><span>Portfolio</span></a></li>
+                    <li class="header-navigation-item"><a href="#"><span>Features</span></a></li>
+                    <li class="header-navigation-item"><a href="#"><span>Blog</span></a></li>
+                    <li class="header-navigation-item"><a href="#"><span>Pricing</span></a></li>
+                    <li class="header-navigation-item"><a href="#"><span>Shortcodes</span></a></li>
+                    <li class="header-navigation-item"><a href="#"><span>Contact</span></a></li>
+                </ul>
+            </nav>
+            <button class="header-navigation-btn"></button>
+            <form class="header-navigation-form" action="#" method="post">
+                <label class="search-label">
+                    <input type="search" id="search" class="search">
+                </label>
+            </form>
+            <section class="carusel">
+                <a href="#" class="carusel-btn"></a>
+                <div class="carusel-txt">
+                    <h2 class="carusel-txt-title">Unique and Modern Design</h2>
+                    <h1 class="carusel-txt-title2">Portfolio PSD Template</h1>
+                    <p class="carusel-txt-text">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
+                    <button class="carusel-item-btn">Get started</button>
+                </div>
+                <a href="#" class="carusel-btn"></a>
+                <div class="carusel-pagination">
+                    <a href="#" class="carusel-pagination-item"></a>
+                    <a href="#" class="carusel-pagination-item"></a>
+                    <a href="#" class="carusel-pagination-item"></a>
+                    <a href="#" class="carusel-pagination-item"></a>
+                    <a href="#" class="carusel-pagination-item"></a>
+                </div>
+            </section>
+        </header>
+        <section class="main">
+            <div class="main-features">
+                <svg class="main-features-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="49" height="49">
+                    <path d="M47.668,19.717 L33.402,33.985 L0.534,48.463 L15.011,15.591 L29.279,1.327 C29.898,0.706 30.904,0.706 31.527,1.327 C32.148,1.950 32.148,2.955 31.527,3.576 L17.683,17.422 L9.107,36.888 L12.106,39.887 L31.573,31.314 L45.420,17.470 C46.039,16.847 47.043,16.847 47.668,17.470 C48.289,18.090 48.289,19.100 47.668,19.717 ZM29.745,28.466 C29.434,28.773 29.028,28.931 28.620,28.931 C28.211,28.931 27.805,28.773 27.495,28.466 C26.875,27.843 26.875,26.836 27.495,26.216 L40.827,12.885 C41.450,12.260 42.454,12.260 43.077,12.885 C43.700,13.505 43.700,14.510 43.077,15.134 L29.745,28.466 ZM26.265,24.985 C25.955,25.293 25.549,25.450 25.140,25.450 C24.734,25.450 24.326,25.293 24.015,24.985 C23.394,24.364 23.394,23.354 24.015,22.735 L37.348,9.403 C37.970,8.780 38.974,8.780 39.598,9.403 C40.219,10.023 40.219,11.030 39.598,11.653 L26.265,24.985 ZM22.784,21.502 C22.473,21.814 22.065,21.968 21.659,21.968 C21.253,21.968 20.845,21.814 20.534,21.502 C19.914,20.883 19.914,19.873 20.534,19.253 L33.867,5.922 C34.490,5.298 35.495,5.298 36.117,5.922 C36.739,6.542 36.739,7.548 36.117,8.172 L22.784,21.502 Z" />
+                </svg>
+                <span class="main-features-title">Web & App Design</span>
+                <p class="main-features-txt">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+            </div>
+            <div class="main-features">
+                <svg class="main-features-icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="49" height="49" viewBox="0 0 469.334 469.334" style="enable-background:new 0 0 469.334 469.334;" xml:space="preserve">
+                    <path d="M15.834,176.542C58.104,201.677,162,263.355,213.875,293.094c6.354,3.646,13.563,5.573,20.792,5.573
+				s14.438-1.927,20.813-5.583c51.854-29.729,155.75-91.406,198.021-116.552c9.917-5.917,15.833-16.083,15.833-27.198
+				c0-11.115-5.917-21.281-15.833-27.208c-32.667-19.427-143.438-85.25-198.042-116.552C249.037,1.886,241.911-0.03,234.663,0
+				c-7.025,0.029-14.166,1.888-20.892,5.635c0,0-148.5,87.219-197.917,116.479C5.917,128.011,0,138.177,0,149.334
+				C0,160.448,5.917,170.615,15.834,176.542z" />
+                    <path d="M453.875,207.75c-3.354-2.073-7.604-2.115-11-0.073c-57.438,34.094-134.708,79.802-176.792,103.917
+				c-19.208,11-43.646,10.99-62.813,0.01C160.792,287.25,83.667,241.646,26.459,207.677c-3.375-2.031-7.646-2-11.021,0.073
+				C5.771,213.677,0,223.74,0,234.667c0,11.115,5.917,21.281,15.833,27.208C58.104,287.011,162,348.688,213.875,378.427
+				c6.354,3.646,13.563,5.573,20.792,5.573s14.438-1.927,20.813-5.583c51.854-29.729,155.75-91.406,198.021-116.552
+				c9.917-5.917,15.833-16.083,15.833-27.198C469.334,223.74,463.563,213.677,453.875,207.75z" />
+                    <path d="M453.875,293.084c-3.354-2.052-7.604-2.115-11-0.073c-57.438,34.094-134.708,79.802-176.792,103.917
+				c-19.208,11-43.646,10.99-62.813,0.01C160.792,372.584,83.667,326.98,26.459,293.011c-3.375-2.031-7.646-1.979-11.021,0.073
+				C5.771,299.011,0,309.073,0,320c0,11.115,5.917,21.281,15.833,27.208C58.104,372.344,162,434.021,213.875,463.761
+				c6.354,3.646,13.563,5.573,20.792,5.573s14.438-1.927,20.813-5.583c51.854-29.729,155.75-91.406,198.021-116.552
+				c9.917-5.917,15.833-16.083,15.833-27.198C469.334,309.073,463.563,299.011,453.875,293.084z" />
+                </svg>
+                <span class="main-features-title">Development</span>
+                <p class="main-features-txt">Lorem ipsum dolor sit amet, adipiscing elit, sed nonummy nibh euismod tincidunt ut laoreet.</p>
+            </div>
+            <div class="main-features">
+                <svg class="main-features-icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="49" height="49" viewBox="0 0 369.793 369.792" style="enable-background:new 0 0 369.793 369.792;" xml:space="preserve">
+                    <path d="M320.83,140.434l-1.759-0.627l-6.87-16.399l0.745-1.685c20.812-47.201,19.377-48.609,15.925-52.031L301.11,42.61
+				c-1.135-1.126-3.128-1.918-4.846-1.918c-1.562,0-6.293,0-47.294,18.57L247.326,60l-16.916-6.812l-0.679-1.684
+				C210.45,3.762,208.475,3.762,203.677,3.762h-39.205c-4.78,0-6.957,0-24.836,47.825l-0.673,1.741l-16.828,6.86l-1.609-0.669
+				C92.774,47.819,76.57,41.886,72.346,41.886c-1.714,0-3.714,0.769-4.854,1.892l-27.787,27.16
+				c-3.525,3.477-4.987,4.933,16.915,51.149l0.805,1.714l-6.881,16.381l-1.684,0.651C0,159.715,0,161.556,0,166.474v38.418
+				c0,4.931,0,6.979,48.957,24.524l1.75,0.618l6.882,16.333l-0.739,1.669c-20.812,47.223-19.492,48.501-15.949,52.025L68.62,327.18
+				c1.162,1.117,3.173,1.915,4.888,1.915c1.552,0,6.272,0,47.3-18.561l1.643-0.769l16.927,6.846l0.658,1.693
+				c19.293,47.726,21.275,47.726,26.076,47.726h39.217c4.924,0,6.966,0,24.859-47.857l0.667-1.742l16.855-6.814l1.604,0.654
+				c27.729,11.733,43.925,17.654,48.122,17.654c1.699,0,3.717-0.745,4.876-1.893l27.832-27.219
+				c3.501-3.495,4.96-4.924-16.981-51.096l-0.816-1.734l6.869-16.31l1.64-0.643c48.938-18.981,48.938-20.831,48.938-25.755v-38.395
+				C369.793,159.95,369.793,157.914,320.83,140.434z M184.896,247.203c-35.038,0-63.542-27.959-63.542-62.3
+				c0-34.342,28.505-62.264,63.542-62.264c35.023,0,63.522,27.928,63.522,62.264C248.419,219.238,219.92,247.203,184.896,247.203z" />
+                </svg>
+                <span class="main-features-title">Customization</span>
+                <p class="main-features-txt">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+            </div>
+            <div class="main-features">
+                <svg class="main-features-icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="49" height="49" viewBox="0 0 198.084 198.084" style="enable-background:new 0 0 198.084 198.084;" xml:space="preserve">
+                    <path d="M197.951,77.097l-16.024,78.532c-1.222,5.987-6.488,10.288-12.599,10.288H20.196c-8.135,0-14.225-7.459-12.599-15.429
+	L21.94,80.197c1.29-6.32,6.849-10.859,13.299-10.859h150.14h6.237c3.068,0,5.558,2.11,6.266,4.856
+	C198.117,75.109,198.155,76.094,197.951,77.097z M12.142,78.198c2.23-10.928,11.943-18.86,23.097-18.86h150.076
+	c-0.6-5.713-5.444-10.181-11.314-10.181H94.819c-1.605-9.628-9.995-16.989-20.07-16.989H13.35C5.989,32.167,0,38.156,0,45.517
+	v92.186L12.142,78.198z" />
+                </svg>
+                <span class="main-features-title">Marketing</span>
+                <p class="main-features-txt">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.</p>
+            </div>
+        </section>
+        <section class="content">
+            <h2 class="content-title">Waxom is Realization of your Ideas.</h2>
+            <p class="content-txt">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+            <figure class="content-img">
+                <img class="content-img-left" src="img/browser_left_10769.png" alt="left" width=770 height=400>
+                <img class="content-img-center" src="img/browser_center_10768.png" alt="center" width=770 height=482;>
+                <img class="content-img-right" src="img/browser_right_10770.png" alt="right" width=770 height=400>
+            </figure>
+        </section>
+        <aside class="ad">
+            <h2 class="ad-title">Waxom</h2>
+            <span class="ad-subtitle">Multipurpose WordPress Theme</span>
+            <p class="ad-txt">Don't Forget to Rate the Template. Thanks so much!</p>
+            <button class="ad-btn">Purchase Now</button>
+        </aside>
+        <section class="card">
+            <h1 class="card-title">Our Latest Projects.</h1>
+            <p class="card-txt">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+            <div class="card-btn-list">
+                <button class="card-btn-item">All</button>
+                <button class="card-btn-item">Web Design</button>
+                <button class="card-btn-item">Mobile App</button>
+                <button class="card-btn-item">Illustration</button>
+                <button class="card-btn-item">Photography</button>
+            </div>
+            <div class="card-gallery">
+                <div class="card-gallery-section">
+                    <img src="img/bg_photo_10894.png" alt="#" class="card-img" height="237" width="370">
+                    <div class="card-text">
+                        <h2 class="card-text-title">Claritas Etiam Processus</h2>
+                        <h3 class="card-text-subtitle">Photography, Nature</h3>
+                    </div>
+                    <button class="card-gallery-btn-link"></button>
+                    <button class="card-gallery-btn-search"></button>
+                </div>
+                <div class="card-gallery-section">
+                    <img src="img/bg_photo_10906.png" alt="#" class="card-img" height="237" width="370">
+                    <div class="card-text">
+                        <h2 class="card-text-title">Quam Nutamus Farum</h2>
+                        <h3 class="card-text-subtitle">Quam Nutamus Farum</h3>
+                    </div>
+                    <button class="card-gallery-btn-link"></button>
+                    <button class="card-gallery-btn-search"></button>
+                </div>
+                <div class="card-gallery-section">
+                    <img src="img/bg_photo_10918.png" alt="#" class="card-img" height="237" width="370">
+                    <div class="card-text">
+                        <h2 class="card-text-title">Usus Legentis Videntur</h2>
+                        <h3 class="card-text-subtitle">Photography, Holiday</h3>
+                    </div>
+                    <button class="card-gallery-btn-link"></button>
+                    <button class="card-gallery-btn-search"></button>
+                </div>
+                <div class="card-gallery-section">
+                    <img src="img/bg_photo_10857.png" alt="#" class="card-img" height="237" width="370">
+                    <div class="card-text">
+                        <h2 class="card-text-title">Claritas Etiam Processus</h2>
+                        <h3 class="card-text-subtitle">Photography, Nature</h3>
+                    </div>
+                    <button class="card-gallery-btn-link"></button>
+                    <button class="card-gallery-btn-search"></button>
+                </div>
+                <div class="card-gallery-section">
+                    <img src="img/bg_photo_10861.png" alt="#" class="card-img" height="237" width="370">
+                    <div class="card-text">
+                        <h2 class="card-text-title">Quam Nutamus Farum</h2>
+                        <h3 class="card-text-subtitle">Graphic Design, <Mock-Up></Mock-Up>
+                        </h3>
+                    </div>
+                    <button class="card-gallery-btn-link"></button>
+                    <button class="card-gallery-btn-search"></button>
+                </div>
+                <div class="card-gallery-section">
+                    <img src="img/bg_photo_10865.png" alt="#" class="card-img" height="237" width="370">
+                    <div class="card-text">
+                        <h2 class="card-text-title">Usus Legentis Videntur</h2>
+                        <h3 class="card-text-subtitle">Photography, Holiday</h3>
+                    </div>
+                    <button class="card-gallery-btn-link"></button>
+                    <button class="card-gallery-btn-search"></button>
+                </div>
+            </div>
+            <button class="card-btn">Load More</button>
+        </section>
+        <section class="video">
+            <video class="video-play" width="1920" height="705" controls poster="img/bg_photo_10983.jpg" src="#"></video>
+            <video class="video-play-mobile" width="480" controls poster="img/bg_photo_10983.jpg" src="#"></video>
+            <div class="video-content">
+                <button class="video-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" fill="white" class="video-btn-icon">
+                        <path d="M34.933594,56.81958 C34.637512,56.81958 34.339172,56.755127 34.060303,56.62549 C33.336792,56.28662 32.874207,55.559082 32.874207,54.760254 C32.874207,54.760254 32.874207,25.235107 32.874207,25.235107 C32.874207,24.436035 33.336548,23.708252 34.060303,23.369629 C34.783447,23.030273 35.639526,23.141113 36.252625,23.652588 C36.252625,23.652588 53.967285,38.415283 53.967285,38.415283 C54.437073,38.80664 54.70862,39.38623 54.70862,39.997314 C54.70862,40.609375 54.437256,41.188477 53.967285,41.580322 C53.967285,41.580322 36.252625,56.34253 36.252625,56.34253 C35.87567,56.65674 35.4068,56.81958 34.933594,56.81958 ZM36.99408,29.632812 C36.99408,29.632812 36.99408,50.362305 36.99408,50.362305 C36.99408,50.362305 49.431274,39.997314 49.431274,39.997314 C49.431274,39.997314 36.99408,29.632812 36.99408,29.632812 ZM39.93683,74.99829 C34.072144,74.99902 28.173218,73.53589 22.830505,70.52759 C21.839355,69.96997 21.487915,68.71338 22.046387,67.72217 C22.603699,66.73096 23.860046,66.37891 24.851929,66.937744 C36.869812,73.703125 52.082397,71.61157 61.845276,61.845215 C73.89203,49.798096 73.89203,30.19751 61.845276,18.149902 C49.7984,6.1013184 30.19629,6.1018066 18.150024,18.149902 C6.10376,30.19751 6.10376,49.798096 18.150024,61.845215 C18.954529,62.649414 18.954529,63.954346 18.150024,64.75903 C17.346497,65.56348 16.04187,65.56348 15.237244,64.75903 C1.5844727,51.104736 1.5844727,28.890137 15.237244,15.236084 C28.890625,1.5842285 51.104065,1.5830078 64.75903,15.236084 C78.411865,28.890137 78.411865,51.104736 64.75903,64.75903 C58.033325,71.484375 49.025696,74.99829 39.93683,74.99829 Z"></path>
+                    </svg>
+                </button>
+                <h2 class="video-title">Waxom Video Presentation</h2>
+                <span class="video-subtitle">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius, qui sequitur mutationem consuetudium.</span>
+                <span class="video-timer">03:26</span>
+            </div>
+
+        </section>
+        <section class="mobile">
+            <img src="img/iphone_in_hand_10962.png" alt="mobile" height="616" width="423" class="mobile-img">
+            <div class="mobile-content">
+                <h2 class="mobile-title">Excellent for Mobile Devices.</h2>
+                <p class="mobile-txt">Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius claritas. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+                <details class="mobile-item">
+                    <summary class="mobile-item-title">Nam liber tempor cum soluta nobis eleifend option;</summary>
+                    <p class="mobile-item-txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quia culpa aut provident quo, neque eius commodi facere iure. Aliquam tempora voluptatem molestias numquam porro sint laudantium quos.</p>
+                </details>
+                <details class="mobile-item">
+                    <summary class="mobile-item-title">Option congue nihil imperdiet doming id quod mazim placerat facer;</summary>
+                    <p class="mobile-item-txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quia culpa aut provident quo, neque eius commodi facere iure. Aliquam tempora voluptatem molestias numquam porro sint laudantium quos.</p>
+                </details>
+                <details class="mobile-item">
+                    <summary class="mobile-item-title">Eodem modo typi, qui nunc nobis videntur parum futurum;</summary>
+                    <p class="mobile-item-txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quia culpa aut provident quo, neque eius commodi facere iure. Aliquam tempora voluptatem molestias numquam porro sint laudantium quos.</p>
+                </details>
+                <details class="mobile-item">
+                    <summary class="mobile-item-title">Investigationes demonstraverunt lectores</summary>
+                    <p class="mobile-item-txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti quia culpa aut provident quo, neque eius commodi facere iure. Aliquam tempora voluptatem molestias numquam porro sint laudantium quos.</p>
+                </details>
+            </div>
+        </section>
+        <section class="counters">
+            <figure class="counters-content">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="47" class="counters-icon">
+                    <path d="M20.937439,32.24951 C26.625366,32.24951 31.249939,26.620605 31.249939,19.702637 C31.249939,12.783691 26.625366,7.15625 20.937439,7.15625 C18.12439,7.15625 15.497803,8.501953 13.542847,10.943848 C11.660156,13.297852 10.623535,16.408203 10.624939,19.702637 C10.624939,26.62207 15.250183,32.24951 20.937439,32.24951 ZM20.937439,9.905762 C25.10675,9.905762 28.499939,14.300293 28.499939,19.702637 C28.499939,25.105957 25.10675,29.5 20.937439,29.5 C16.768127,29.5 13.374939,25.105957 13.372192,19.702637 C13.372192,14.300293 16.76538,9.905762 20.937439,9.905762 ZM29.598328,30.875 C28.838318,30.875 28.223328,31.489746 28.223328,32.24951 C28.223328,33.009766 28.838318,33.625 29.598328,33.625 C34.29944,33.625 38.125,37.450195 38.125,42.152832 C38.125,42.75537 37.6308,43.25 37.023804,43.25 C37.023804,43.25 4.8483276,43.25 4.8483276,43.25 C4.243469,43.25 3.749878,42.7583 3.749878,42.152832 C3.749878,37.450195 7.5741577,33.625 12.273804,33.625 C13.033936,33.625 13.648804,33.009766 13.648804,32.24951 C13.648804,31.489746 13.033936,30.875 12.273804,30.875 C6.057495,30.875 1.0,35.934082 1.0,42.152832 C1.0,44.274414 2.7268066,45.99951 4.8483276,45.99951 C4.8483276,45.99951 37.023804,45.99951 37.023804,45.99951 C39.14685,45.99951 40.875,44.274414 40.875,42.152832 C40.875,35.934082 35.815308,30.875 29.598328,30.875 ZM21.942566,5.6289062 C22.926758,5.044922 23.976196,4.7509766 25.062439,4.7509766 C29.23175,4.7509766 32.62494,9.145996 32.62494,14.546875 C32.62494,15.516113 32.51758,16.466309 32.30542,17.375 C32.1308,18.114258 32.590027,18.854004 33.328552,19.027344 C33.434753,19.05371 33.539307,19.063965 33.644043,19.063965 C34.268433,19.063965 34.83252,18.63623 34.981506,18.003906 C35.2406,16.888672 35.37494,15.726074 35.37494,14.546875 C35.37494,7.6289062 30.750427,2.0 25.062439,2.0 C23.498718,2.0 21.938477,2.4355469 20.544128,3.2607422 C19.889404,3.6469727 19.674011,4.491211 20.059937,5.1445312 C20.446716,5.7978516 21.29187,6.0146484 21.942566,5.6289062 ZM33.99994,25.375 C33.23993,25.375 32.62494,25.989746 32.62494,26.749512 C32.62494,27.509766 33.23993,28.124512 33.99994,28.124512 C38.700928,28.124512 42.25,32.04297 42.25,36.742676 C42.25,36.898438 42.220337,37.053223 42.155945,37.190918 C41.84845,37.88672 42.161316,38.697754 42.854248,39.006348 C43.03418,39.086914 43.224792,39.125 43.41284,39.125 C43.939148,39.125 44.441406,38.818848 44.669617,38.308105 C44.888428,37.813965 44.999878,37.287598 44.999878,36.739746 C44.999878,30.527344 40.21698,25.375 33.99994,25.375 Z" />
+                </svg>
+                <figcaption class="counters-title">3587</figcaption>
+                <span class="counters-txt">Satisfied Clients</span>
+            </figure>
+            <figure class="counters-content">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="51" height="47" class="counters-icon">
+                    <path d="M48.043335,44.748535 C48.043335,45.439453 47.490845,45.99951 46.809326,45.99951 C46.809326,45.99951 3.2338867,45.99951 3.2338867,45.99951 C2.5524902,45.99951 2.0,45.439453 2.0,44.748535 C2.0,44.058105 2.5524902,43.498047 3.2338867,43.498047 C3.2338867,43.498047 46.809326,43.498047 46.809326,43.498047 C47.490845,43.498047 48.043335,44.058105 48.043335,44.748535 ZM23.769165,24.21289 C24.006958,24.437988 24.309082,24.549316 24.6109,24.549316 C24.940918,24.549316 25.270264,24.416016 25.513367,24.151855 C25.97821,23.646484 25.951294,22.855469 25.453064,22.38379 C23.337524,20.382324 23.7901,16.313965 25.608215,14.01416 C28.075134,10.893555 28.618164,5.3305664 25.452942,2.336914 C24.954773,1.8657227 24.173706,1.8930664 23.70874,2.3984375 C23.243896,2.9033203 23.270996,3.6953125 23.76941,4.166504 C25.6698,5.963867 25.627441,9.98877 23.682434,12.449707 C22.403992,14.066895 21.639893,16.234375 21.585876,18.396484 C21.52649,20.759277 22.302002,22.824707 23.769165,24.21289 ZM49.99994,21.614258 C49.99994,21.614258 49.99994,24.01416 49.99994,24.01416 C49.99994,27.45459 47.23938,30.25293 43.845886,30.25293 C43.845886,30.25293 41.09131,30.25293 41.09131,30.25293 C39.221313,35.523926 34.240173,39.30371 28.40503,39.30371 C28.40503,39.30371 21.63861,39.30371 21.63861,39.30371 C14.207886,39.30371 8.162537,33.175293 8.162537,25.642578 C8.162537,25.642578 8.162537,13.231934 8.162537,13.231934 C8.162537,12.541016 8.715027,11.980957 9.396545,11.980957 C9.396545,11.980957 17.311829,11.980957 17.311829,11.980957 C18.918457,9.504883 18.846619,5.8535156 17.062805,4.166504 C16.564636,3.6948242 16.537659,2.9033203 17.002502,2.3984375 C17.467468,1.8930664 18.248413,1.8657227 18.746582,2.3374023 C21.91101,5.3305664 21.368164,10.893555 18.901978,14.01416 C17.08319,16.314453 16.630432,20.382324 18.746582,22.38379 C19.244873,22.855469 19.271973,23.646484 18.807129,24.151855 C18.342163,24.657227 17.561218,24.68457 17.062927,24.213379 C15.595459,22.824707 14.819885,20.759277 14.878906,18.396484 C14.91272,17.049316 15.222168,15.700195 15.76001,14.48291 C15.76001,14.48291 10.630432,14.48291 10.630432,14.48291 C10.630432,14.48291 10.630432,25.642578 10.630432,25.642578 C10.630432,31.795898 15.568787,36.801758 21.63861,36.801758 C21.63861,36.801758 28.40503,36.801758 28.40503,36.801758 C34.474854,36.801758 39.413208,31.79541 39.413208,25.642578 C39.413208,25.642578 39.413208,14.48291 39.413208,14.48291 C39.413208,14.48291 30.134949,14.48291 30.134949,14.48291 C29.45343,14.48291 28.90094,13.922852 28.90094,13.231934 C28.90094,12.541016 29.45343,11.980957 30.134949,11.980957 C30.134949,11.980957 40.647278,11.980957 40.647278,11.980957 C41.328613,11.980957 41.881165,12.541016 41.881165,13.231934 C41.881165,13.231934 41.881165,15.375 41.881165,15.375 C41.881165,15.375 43.84601,15.375 43.84601,15.375 C47.239136,15.375 49.99994,18.173828 49.99994,21.614258 ZM47.53192,21.614258 C47.53192,19.55371 45.878357,17.876953 43.845886,17.876953 C43.845886,17.876953 41.881042,17.876953 41.881042,17.876953 C41.881042,17.876953 41.881042,27.751465 41.881042,27.751465 C41.881042,27.751465 43.845886,27.751465 43.845886,27.751465 C45.878357,27.751465 47.53192,26.074707 47.53192,24.01416 C47.53192,24.01416 47.53192,21.614258 47.53192,21.614258 Z" />
+                </svg>
+                <figcaption class="counters-title">207</figcaption>
+                <span class="counters-txt">Cups of coffee</span>
+            </figure>
+            <figure class="counters-content">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="46" class="counters-icon">
+                    <path d="M29.872864,24.373535 C29.872864,24.373535 16.125488,24.373535 16.125488,24.373535 C15.366577,24.373535 14.750732,24.989746 14.750732,25.748535 C14.750732,26.507812 15.366577,27.123535 16.125488,27.123535 C16.125488,27.123535 29.872864,27.123535 29.872864,27.123535 C30.632141,27.123535 31.247498,26.507812 31.247498,25.748535 C31.247498,24.989746 30.632141,24.373535 29.872864,24.373535 ZM32.622192,16.125977 C32.622192,16.125977 13.376099,16.125977 13.376099,16.125977 C12.617126,16.125977 12.001282,16.74121 12.001282,17.500488 C12.001282,18.259277 12.617126,18.875 13.376099,18.875 C13.376099,18.875 32.622192,18.875 32.622192,18.875 C33.38159,18.875 33.99695,18.259277 33.99695,17.500488 C33.99695,16.74121 33.38159,16.125977 32.622192,16.125977 ZM22.999268,1.003418 C10.852051,1.003418 1.003418,9.619629 1.003418,20.249512 C1.003418,26.324707 4.227234,31.733398 9.251648,35.260742 C9.251648,35.260742 9.251648,44.995117 9.251648,44.995117 C9.251648,44.995117 18.887451,39.148438 18.887451,39.148438 C20.22113,39.368164 21.592834,39.496094 22.999268,39.496094 C35.148132,39.496094 44.9953,30.878906 44.9953,20.249512 C44.9953,9.619629 35.148132,1.003418 22.999268,1.003418 ZM22.999268,36.74707 C21.393433,36.74707 19.843018,36.56006 18.352661,36.242188 C18.352661,36.242188 11.880127,40.132812 11.880127,40.132812 C11.880127,40.132812 11.966858,33.756348 11.966858,33.756348 C7.005371,30.77246 3.7527466,25.839355 3.7527466,20.249512 C3.7527466,11.13916 12.36969,3.7524414 22.999268,3.7524414 C33.628662,3.7524414 42.24585,11.13916 42.24585,20.249512 C42.24585,29.360352 33.628662,36.74707 22.999268,36.74707 Z" />
+                </svg>
+                <figcaption class="counters-title">2500</figcaption>
+                <span class="counters-txt">Blog posts</span>
+            </figure>
+            <figure class="counters-content">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="47" height="47" class="counters-icon">
+                    <path d="M32.25,2.0 C31.825562,2.0 31.402588,2.025879 30.9823,2.0644531 C30.82788,2.0786133 30.67627,2.100586 30.523071,2.1206055 C30.26538,2.1518555 30.010254,2.190918 29.755005,2.237793 C29.567017,2.272461 29.383057,2.3105469 29.203247,2.3520508 C28.992432,2.3999023 28.782837,2.4560547 28.573486,2.5136719 C28.374634,2.569336 28.177368,2.6225586 27.982666,2.6860352 C27.80542,2.7436523 27.633545,2.8134766 27.458862,2.878418 C26.999634,3.0507812 26.55127,3.244629 26.11621,3.4614258 C26.030273,3.503418 25.940308,3.5424805 25.855713,3.588379 C25.62732,3.7089844 25.407104,3.8432617 25.184204,3.975586 C25.063354,4.050293 24.939941,4.120117 24.819092,4.198242 C24.603638,4.3359375 24.39746,4.4833984 24.191406,4.631836 C24.128906,4.677246 24.06311,4.7182617 23.999878,4.76416 C21.622559,2.9746094 18.734985,2.0 15.75,2.0 C8.167969,2.0 1.9998779,8.166504 1.9998779,15.75 C1.9998779,28.194336 10.002197,39.45215 23.405884,45.862793 C23.594482,45.9541 23.797852,45.99951 23.999878,45.99951 C24.202148,45.99951 24.405518,45.9541 24.594116,45.862793 C37.99707,39.45215 45.999878,28.194336 45.999878,15.75 C45.999878,8.166504 39.8313,2.0 32.25,2.0 ZM23.999878,43.097168 C11.934448,37.10791 4.749878,26.927246 4.749878,15.75 C4.749878,9.68457 9.684692,4.75 15.75,4.75 C17.968872,4.75 20.118042,5.4345703 21.940186,6.6831055 C19.805054,9.106934 18.5,12.274902 18.5,15.75 C18.5,16.5083 19.114258,17.124512 19.875,17.124512 C20.63562,17.124512 21.249878,16.5083 21.249878,15.75 C21.249878,12.476074 22.696167,9.538574 24.97351,7.5234375 C25.184204,7.3344727 25.404541,7.1572266 25.62732,6.9868164 C25.678467,6.951172 25.728027,6.911621 25.779053,6.8740234 C25.997925,6.7148438 26.22229,6.5620117 26.451782,6.42041 C26.515015,6.380371 26.578003,6.3408203 26.642578,6.303711 C26.864014,6.17041 27.090942,6.0463867 27.320557,5.930664 C27.399902,5.8911133 27.481812,5.852539 27.562378,5.813965 C27.78247,5.709961 28.005493,5.6103516 28.2323,5.5214844 C28.331787,5.4814453 28.433838,5.4453125 28.53711,5.408203 C28.750732,5.331543 28.965454,5.258789 29.183105,5.1953125 C29.315918,5.158203 29.444946,5.125 29.577759,5.0932617 C29.775146,5.0439453 29.96997,4.992676 30.171387,4.953125 C30.35254,4.919922 30.536499,4.895508 30.719238,4.869629 C30.875,4.845703 31.030762,4.819336 31.189087,4.8032227 C31.538208,4.770508 31.8927,4.75 32.25,4.75 C38.315186,4.75 43.249878,9.68457 43.249878,15.75 C43.249878,26.927246 36.066162,37.10791 23.999878,43.097168 ZM32.25,7.4995117 C31.48999,7.4995117 30.875,8.116211 30.875,8.874512 C30.875,9.633301 31.48999,10.25 32.25,10.25 C35.283325,10.25 37.75,12.716309 37.75,15.75 C37.75,16.5083 38.36499,17.124512 39.125,17.124512 C39.884888,17.124512 40.5,16.5083 40.5,15.75 C40.5,11.200195 36.799316,7.4995117 32.25,7.4995117 Z" />
+                </svg>
+                <figcaption class="counters-title">873</figcaption>
+                <span class="counters-txt">Likes</span>
+            </figure>
+            <figure class="counters-content">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="46" class="counters-icon">
+                    <path d="M53.31018,41.61133 C53.31018,41.61133 2.690796,41.61133 2.690796,41.61133 C1.7593994,41.61133 1.0032959,42.36914 1.0032959,43.30371 C1.0032959,44.237305 1.7593994,44.995117 2.690796,44.995117 C2.690796,44.995117 53.31018,44.995117 53.31018,44.995117 C54.241943,44.995117 54.998413,44.237305 54.998413,43.30371 C54.998413,42.36914 54.241943,41.61133 53.31018,41.61133 ZM29.6875,7.7714844 C29.6875,7.7714844 29.6875,4.387207 29.6875,4.387207 C29.6875,4.387207 33.062622,4.387207 33.062622,4.387207 C33.99353,4.387207 34.750122,3.6293945 34.750122,2.694336 C34.750122,1.7612305 33.99353,1.003418 33.062622,1.003418 C33.062622,1.003418 22.938843,1.003418 22.938843,1.003418 C22.007324,1.003418 21.25122,1.7612305 21.25122,2.694336 C21.25122,3.6293945 22.007324,4.387207 22.938843,4.387207 C22.938843,4.387207 26.313599,4.387207 26.313599,4.387207 C26.313599,4.387207 26.301392,7.9101562 26.313599,7.7714844 C12.193848,8.648926 1.0032959,20.46289 1.0032959,34.84326 C1.0032959,36.217285 1.0032959,35.601074 1.0032959,36.535156 C1.0032959,37.46924 1.7593994,38.22705 2.690796,38.22705 C2.690796,38.22705 53.31018,38.22705 53.31018,38.22705 C54.241943,38.22705 54.998413,37.46924 54.998413,36.535156 C54.998413,35.601074 54.998413,36.32373 54.998413,34.84326 C54.998413,20.46289 43.807617,8.648926 29.6875,7.7714844 ZM4.3779297,34.84326 C4.3779297,21.760742 14.954102,11.155273 28.00061,11.155273 C41.04773,11.155273 51.62329,21.760742 51.62329,34.84326 C51.62329,34.84326 4.3779297,34.84326 4.3779297,34.84326 Z" />
+                </svg>
+                <figcaption class="counters-title">900</figcaption>
+                <span class="counters-txt">We launched</span>
+            </figure>
+        </section>
+        <section class="posts">
+            <h2 class="posts-title">Recent Posts.</h2>
+            <p class="posts-txt">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+            <div class="posts-gallery">
+                <article class="posts-gallery-section">
+                    <img src="img/bg_photo_11639.png" alt="" class="posts-img">
+                    <article class="posts-gallery-text">
+                        <h3 class="posts-gallery-text-title">Lorem ipsum dolor sit amet</h3>
+                        <p class="posts-gallery-text-txt">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                        <a href="#" class="posts-link">Read More</a>
+                    </article>
+                    <article class="posts-gallery-date">
+                        <span class="posts-gallery-data">30</span>
+                        <span class="posts-gallery-day">Sep.</span>
+                    </article>
+                    <div class="posts-nav">
+                        <a href="#" class="posts-nav-link"></a>
+                        <a href="#" class="posts-nav-link"></a>
+                        <a href="#" class="posts-nav-link"></a>
+                        <a href="#" class="posts-nav-link"></a>
+                        <a href="#" class="posts-nav-link"></a>
+                    </div>
+                </article>
+                <article class="posts-gallery-section">
+                    <img src="img/bg_photo_11685.png" alt="" class="posts-img">
+                    <article class="posts-gallery-text">
+                        <h3 class="posts-gallery-text-title">Lorem ipsum dolor sit amet</h3>
+                        <p class="posts-gallery-text-txt">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                        <a href="#" class="posts-link">Read More</a>
+                    </article>
+                    <article class="posts-gallery-date">
+                        <span class="posts-gallery-data">30</span>
+                        <span class="posts-gallery-day">Sep.</span>
+                    </article>
+                    <div class="posts-nav">
+                        <a class="posts-nav-link"></a>
+                        <a class="posts-nav-link"></a>
+                        <a class="posts-nav-link"></a>
+                        <a class="posts-nav-link"></a>
+                        <a class="posts-nav-link"></a>
+                    </div>
+                </article>
+                <article class="posts-gallery-section">
+                    <img src="img/bg_photo_11718.png" alt="" class="posts-img">
+                    <article class="posts-gallery-text">
+                        <h3 class="posts-gallery-text-title">Lorem ipsum dolor sit amet</h3>
+                        <p class="posts-gallery-text-txt">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                        <a href="#" class="posts-link">Read More</a>
+                    </article>
+                    <article class="posts-gallery-date">
+                        <span class="posts-gallery-data">30</span>
+                        <span class="posts-gallery-day">Sep.</span>
+                    </article>
+                    <div class="posts-nav">
+                        <a class="posts-nav-link"></a>
+                        <a class="posts-nav-link"></a>
+                        <a class="posts-nav-link"></a>
+                        <a class="posts-nav-link"></a>
+                        <a class="posts-nav-link"></a>
+                    </div>
+                </article>
+            </div>
+            <button class="posts-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill-rule="evenodd" d="M8.582764,11.434082 C8.582764,11.434082 13.354858,6.661133 13.354858,6.661133 C13.641541,6.3745117 14.107849,6.3745117 14.395264,6.661133 C14.681885,6.9487305 14.681885,7.4155273 14.395264,7.7021484 C14.395264,7.7021484 10.140686,11.957031 10.140686,11.957031 C10.140686,11.957031 14.395264,16.21045 14.395264,16.21045 C14.681885,16.497559 14.681885,16.96289 14.395264,17.251465 C14.107849,17.538574 13.641541,17.538574 13.354858,17.251465 C13.354858,17.251465 8.582764,12.47998 8.582764,12.47998 C8.437683,12.334961 8.365662,12.14502 8.3671875,11.957031 C8.3671875,11.766602 8.437683,11.579102 8.582764,11.434082 ZM11.987427,1.0258789 C18.053467,1.0258789 22.972107,5.9433594 22.972107,12.010742 C22.972107,18.076172 18.053467,22.994629 11.987427,22.994629 C5.9211426,22.994629 1.0032349,18.076172 1.0032349,12.010742 C1.0032349,5.9433594 5.9211426,1.0258789 11.987427,1.0258789 ZM11.987427,21.52295 C17.232239,21.52295 21.50055,17.253418 21.50055,12.010742 C21.50055,6.7651367 17.232239,2.4970703 11.987427,2.4970703 C6.743164,2.4970703 2.4748535,6.7651367 2.4748535,12.010742 C2.4748535,17.253418 6.743164,21.52295 11.987427,21.52295 Z" />
+                </svg>
+            </button>
+            <button class="posts-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill-rule="evenodd" d="M15.417053,11.434082 C15.417053,11.434082 10.644897,6.661133 10.644897,6.661133 C10.358215,6.3745117 9.891846,6.3745117 9.604492,6.661133 C9.31781,6.9487305 9.31781,7.4155273 9.604492,7.7021484 C9.604492,7.7021484 13.859192,11.957031 13.859192,11.957031 C13.859192,11.957031 9.604492,16.21045 9.604492,16.21045 C9.31781,16.497559 9.31781,16.96289 9.604492,17.251465 C9.891846,17.538574 10.358215,17.538574 10.644897,17.251465 C10.644897,17.251465 15.417053,12.47998 15.417053,12.47998 C15.562195,12.334961 15.634033,12.14502 15.63269,11.957031 C15.63269,11.766602 15.562195,11.579102 15.417053,11.434082 ZM12.012329,1.0258789 C5.946289,1.0258789 1.0275879,5.9433594 1.0275879,12.010742 C1.0275879,18.076172 5.946289,22.994629 12.012329,22.994629 C18.078613,22.994629 22.996582,18.076172 22.996582,12.010742 C22.996582,5.9433594 18.078613,1.0258789 12.012329,1.0258789 ZM12.012329,21.52295 C6.767639,21.52295 2.4992065,17.253418 2.4992065,12.010742 C2.4992065,6.7651367 6.767639,2.4970703 12.012329,2.4970703 C17.256592,2.4970703 21.524902,6.7651367 21.524902,12.010742 C21.524902,17.253418 17.256592,21.52295 12.012329,21.52295 Z" />
+                </svg>
+            </button>
+        </section>
+        <section class="partners">
+            <a href="#" class="partners-link">
+                <img src="img/logo_01_11138.png" alt="partners-logo" class="partners-img" widtn="210" height="127">
+                <img src="img/logo_01_11138.png" alt="partners-logo" class="partners-img-mobile" widtn="85" height="55">
+            </a>
+            <a href="#" class="partners-link">
+                <img src="img/logo_02_11139.png" alt="partners-logo" class="partners-img" widtn="210" height="210">
+                <img src="img/logo_02_11139.png" alt="partners-logo" class="partners-img-mobile" widtn="85" height="55">
+            </a>
+            <a href="#" class="partners-link">
+                <img src="img/logo_03_11140.png" alt="partners-logo" class="partners-img" widtn="210" height="130">
+                <img src="img/logo_03_11140.png" alt="partners-logo" class="partners-img-mobile" widtn="85" height="55">
+            </a>
+            <a href="#" class="partners-link">
+                <img src="img/logo_04_11141.png" alt="partners-logo" class="partners-img" widtn="210" height="164">
+                <img src="img/logo_04_11141.png" alt="partners-logo" class="partners-img-mobile" widtn="85" height="55">
+            </a>
+        </section>
+        <section class="footer">
+            <div class="footer-element">
+                <div class="footer-logo">
+                    <a href="#" class="logo">
+                        <svg class="brand-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="66" height="59" viewBox="0 0 66 59">
+                            <path fill-rule="evenodd" d="M38.107788,12.713379 C38.107788,12.713379 27.60028,12.713379 27.60028,12.713379 C27.60028,12.713379 32.854034,21.905273 32.854034,21.905273 C32.854034,21.905273 38.107788,12.713379 38.107788,12.713379 ZM26.286285,13.47998 C26.286285,13.47998 21.03241,22.670898 21.03241,22.670898 C21.03241,22.670898 31.54004,22.670898 31.54004,22.670898 C31.54004,22.670898 26.286285,13.47998 26.286285,13.47998 ZM44.67566,22.670898 C44.67566,22.670898 39.42169,13.47998 39.42169,13.47998 C39.42169,13.47998 34.16806,22.670898 34.16806,22.670898 C34.16806,22.670898 44.67566,22.670898 44.67566,22.670898 ZM34.16806,24.201172 C34.16806,24.201172 39.42169,33.38916 39.42169,33.38916 C39.42169,33.38916 44.67566,24.201172 44.67566,24.201172 C44.67566,24.201172 34.16806,24.201172 34.16806,24.201172 ZM21.03241,24.201172 C21.03241,24.201172 26.286285,33.38916 26.286285,33.38916 C26.286285,33.38916 31.54004,24.201172 31.54004,24.201172 C31.54004,24.201172 21.03241,24.201172 21.03241,24.201172 ZM14.464661,34.15381 C14.464661,34.15381 24.971344,34.15381 24.971344,34.15381 C24.971344,34.15381 19.718384,24.966797 19.718384,24.966797 C19.718384,24.966797 14.464661,34.15381 14.464661,34.15381 ZM51.243317,34.15381 C51.243317,34.15381 45.989685,24.966797 45.989685,24.966797 C45.989685,24.966797 40.73764,34.15381 40.73764,34.15381 C40.73764,34.15381 51.243317,34.15381 51.243317,34.15381 ZM32.854034,1.9931641 C32.854034,1.9931641 27.60028,11.184082 27.60028,11.184082 C27.60028,11.184082 38.107788,11.184082 38.107788,11.184082 C38.107788,11.184082 32.854034,1.9931641 32.854034,1.9931641 ZM45.989685,44.874023 C45.989685,44.874023 51.243317,35.686035 51.243317,35.686035 C51.243317,35.686035 40.73764,35.686035 40.73764,35.686035 C40.73764,35.686035 45.989685,44.874023 45.989685,44.874023 ZM19.718384,44.874023 C19.718384,44.874023 24.971344,35.686035 24.971344,35.686035 C24.971344,35.686035 14.464661,35.686035 14.464661,35.686035 C14.464661,35.686035 19.718384,44.874023 19.718384,44.874023 ZM7.897003,45.6416 C7.897003,45.6416 18.403687,45.6416 18.403687,45.6416 C18.403687,45.6416 13.150757,36.45117 13.150757,36.45117 C13.150757,36.45117 7.897003,45.6416 7.897003,45.6416 ZM57.811096,45.6416 C57.811096,45.6416 52.557343,36.45117 52.557343,36.45117 C52.557343,36.45117 47.303345,45.6416 47.303345,45.6416 C47.303345,45.6416 57.811096,45.6416 57.811096,45.6416 ZM47.303345,47.171875 C47.303345,47.171875 52.557343,56.358887 52.557343,56.358887 C52.557343,56.358887 57.811096,47.171875 57.811096,47.171875 C57.811096,47.171875 47.303345,47.171875 47.303345,47.171875 ZM34.16806,47.171875 C34.16806,47.171875 39.42169,56.358887 39.42169,56.358887 C39.42169,56.358887 44.67566,47.171875 44.67566,47.171875 C44.67566,47.171875 34.16806,47.171875 34.16806,47.171875 ZM13.150757,56.358887 C13.150757,56.358887 18.403687,47.171875 18.403687,47.171875 C18.403687,47.171875 7.897003,47.171875 7.897003,47.171875 C7.897003,47.171875 13.150757,56.358887 13.150757,56.358887 ZM1.3310547,57.12793 C1.3310547,57.12793 11.835815,57.12793 11.835815,57.12793 C11.835815,57.12793 6.582062,47.938965 6.582062,47.938965 C6.582062,47.938965 1.3310547,57.12793 1.3310547,57.12793 ZM27.60028,57.12793 C27.60028,57.12793 38.107788,57.12793 38.107788,57.12793 C38.107788,57.12793 32.854034,47.938965 32.854034,47.938965 C32.854034,47.938965 27.60028,57.12793 27.60028,57.12793 ZM40.73764,57.12793 C40.73764,57.12793 51.243317,57.12793 51.243317,57.12793 C51.243317,57.12793 45.989685,47.938965 45.989685,47.938965 C45.989685,47.938965 40.73764,57.12793 40.73764,57.12793 ZM59.12509,47.938965 C59.12509,47.938965 53.873047,57.12793 53.873047,57.12793 C53.873047,57.12793 64.377014,57.12793 64.377014,57.12793 C64.377014,57.12793 59.12509,47.938965 59.12509,47.938965 Z" />
+                        </svg>
+                        <span class="logo-title">Waxom</span>
+                    </a>
+                    <p class="footer-logo-txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci suscipit lobortis claritatem.</p>
+                    <a href="#" class="footer-link">Read More</a>
+                </div>
+                <article class="footer-posts">
+                    <h2 class="footer-posts-title">Recent Posts</h2>
+                    <a href="#" class="footer-posts-link">
+                        <span class="footer-posts-subtitle">September 08, 2015</span>
+                        <p class="footer-posts-txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                    </a>
+                    <a href="#" class="footer-posts-link">
+                        <span class="footer-posts-subtitle">September 08, 2015</span>
+                        <p class="footer-posts-txt">Diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
+                    </a>
+                    <a href="#" class="footer-posts-link">
+                        <span class="footer-posts-subtitle">September 08, 2015</span>
+                        <p class="footer-posts-txt">Claritas est etiam processus dynamicus, qui sequitur mutationem per seacula quarta decima</p>
+                    </a>
+                </article>
+                <div class="footer-social">
+                    <h2 class="footer-social-title">Our Twitter</h2>
+                    <div class="footer-social-list">
+                        <p class="footer-social-txt"><a href="">@waxom</a>Cum soluta nobis eleifend option congue nihil imperdiet doming</p>
+                        <span class="footer-social-subtitle">3 mins ago</span>
+                    </div>
+                    <div class="footer-social-list">
+                        <p class="footer-social-txt">Mirum est <a href="">#envato</a>notare quam littera gothica, quam nunc putamus parum anteposuerit litterarum</p>
+                        <span class="footer-social-subtitle">5 hours ago</span>
+                    </div>
+                    <div class="footer-social-list">
+                        <p class="footer-social-txt">Soluta nobis option <a href="">bit.ly/1Hniso7</a></p>
+                        <span class="footer-social-subtitle">20 days ago</span>
+                    </div>
+                </div>
+                <figure class="footer-widget">
+                    <h2 class="footer-widget-title">Dribbble Widget</h2>
+                    <img src="img/bg_photo_8842.png" alt="footer-widget-img" class="footer-widget-img" width="130" height="98">
+                    <img src="img/bg_photo_9778.png" alt="footer-widget-img" class="footer-widget-img" width="130" height="98">
+                    <img src="img/bg_photo_9781.png" alt="footer-widget-img" class="footer-widget-img" width="130" height="98">
+                    <img src="img/bg_photo_9784.png" alt="footer-widget-img" class="footer-widget-img" width="130" height="98">
+                </figure>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-links-block">
+                <div class="links">
+                    <span class="links-txt">
+                        Copyright &copy; 2015
+                        <a href="#" class="links-brand">Waxom</a>
+                    </span>
+                    <a href="#" class="links-item">Privacy Policy</a>
+                    <a href="#" class="links-item">FAQ</a>
+                    <a href="#" class="links-item">Supporrt</a>
+                </div>
+                <div class="links">
+                    <span class="links-txt">
+                        Designed by
+                        <a href="#" class="links-brand">ThemeFire</a>
+                    </span>
+                    <span class="links-txt">
+                        Only on
+                        <a href="#" class="links-brand">Envato Market</a>
+                    </span>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

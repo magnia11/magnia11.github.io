@@ -1,2 +1,1 @@
-# magnia11.github.io
-Зачетный макет Waxom
+# maket-1.2
